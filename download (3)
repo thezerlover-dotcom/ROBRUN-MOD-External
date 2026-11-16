@@ -1,0 +1,41 @@
+# Build output
+build/
+out/
+dist/
+.vs/
+*.obj
+*.res
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.exe
+*.dll
+*.sys
+*.log
+*.dmp
+resources/RC*
+
+# Keep the vendored WebView2 SDK (headers and import/static libraries).
+!third_party/webview2/**
+
+# Runtime state
+RobRun.ini
+CoreRR.cfg
+robrun_runtime.txt
+robrun_chain.txt
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor / OS
+Thumbs.db
+desktop.ini
+*.swp
+*.user
+.DS_Store
+
+# Local AI notes
+AI_CONTEXT.md
+CLEANUP_PLAN.md

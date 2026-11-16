@@ -1,0 +1,25 @@
+* text=auto eol=crlf
+
+*.c       text
+*.h       text
+*.cpp     text
+*.cxx     text
+*.hxx     text
+*.ps1     text
+*.cmd     text
+*.bat     text
+*.md      text
+*.html    text
+*.json    text
+*.rc      text
+*.manifest text
+
+*.exe     binary
+*.dll     binary
+*.lib     binary
+*.sys     binary
+*.res     binary
+*.obj     binary
+*.pdb     binary
+*.png     binary
+*.ico     binary
